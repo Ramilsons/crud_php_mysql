@@ -1,0 +1,76 @@
+main{
+    max-width: 800px;
+    margin: -100px auto 0;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding-bottom: 30px;
+}
+
+form{
+    flex-wrap: wrap;
+}
+
+form > div{
+    display: block;
+    width: 100%;
+}
+
+form input{
+    width: 90%;
+    margin: 20px auto 0;
+    display: block;
+    height: 40px;
+    color: rgb(26,25,25);
+    border-bottom: 2px solid rgb(239, 239, 239);
+}
+
+form .check > div{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+form .check > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    width: 120px;
+}
+
+form label{
+    font-size: 18px;
+}
+
+form input[type='radio']{
+    height: 20px;
+    accent-color: rgb(26,25,25);
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: left;
+    width: 20px;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#3393FF;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn button{
+    color: #fff;
+    font-weight: 700;
+    width: 90%;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}

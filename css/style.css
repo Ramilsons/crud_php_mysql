@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background: rgb(26,25,25);
+    height: 300px;
+}
+
+header a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.links{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: end;
+}
+
+header > div{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    height: 300px;
+}
+
+h1{
+    margin: 0px auto 0;
+    margin-left: 0;
+    text-align: left;
+    color: #fff;
+}
+
+.all-products{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: -70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-card{
+    border: 1px solid rgb(216, 216, 216);
+    width: 210px;
+    padding: 10px 20px 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    height: 275px;
+}
+
+.product-card{
+    margin-right: 22px;
+}
+
+.product-card:last-child{
+    margin-right: 0px;
+}
+
+.product-card img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.product-card p, small{
+    display: none;
+}
+
+.product-card{
+    position: relative;
+}
+
+.product-card:hover p{
+    display: initial;
+    min-height: 150px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 40px);
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+    color: rgb(239, 239, 239);
+    border-bottom: 2px solid #fff;
+}
+
+form button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+form button svg{
+    height: 30px;
+}
+
+.buttons{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.buttons a{
+    display: block;
+}
+
+.buttons img{
+    width: 30px;
+    height: 30px;
+}
+
+.buttons a:first-child{
+    margin-bottom: 6px;
+}
+
+.buttons a:last-child{
+    margin-top: 6px;
+}
+
+.cadastrar, .cadastrar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cadastrar img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.cadastrar h2{
+    color: #95A5A6;
+    text-align: center;
+    border-color: #95A5A6;
+}
+
+.cadastrar a{
+    text-decoration-color: #95A5A6;
+}
+
+main{
+    width: 800px;
+    margin: -70px auto 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px 20px;
+}
+
+main form{
+    display: block;
+}
+
+main h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+main .links-button{
+    margin-top: 20px;
+}
+
+main .links-button a, main .links-button{
+    display: block;
+    cursor: pointer;
+}
+
+main .links-button button{
+    cursor: pointer;
+    text-decoration: underline;
+    margin-bottom: 8px;
+}

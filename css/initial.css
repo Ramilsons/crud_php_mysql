@@ -1,0 +1,8 @@
+.initial header, .initial > div{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.initial > div p{
+    text-align: justify;
+}
